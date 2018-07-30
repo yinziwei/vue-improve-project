@@ -7,6 +7,11 @@ import router from './router'
 import utils from './utils/index.js'
 //引入API文件
 import api from './api/index.js'
+//配置百度编辑器
+import '../static/ue/ueditor.config'
+import '../static/ue/ueditor.all.min'
+import '../static/ue/ueditor.parse.min'
+import '../static/ue/lang/zh-cn/zh-cn'
 //将工具方法绑定到全局
 Vue.prototype.$utils=utils
 Vue.config.productionTip = false
