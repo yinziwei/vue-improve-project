@@ -12,6 +12,7 @@ import '../static/ue/ueditor.config'
 import '../static/ue/ueditor.all.min'
 import '../static/ue/ueditor.parse.min'
 import '../static/ue/lang/zh-cn/zh-cn'
+
 //将工具方法绑定到全局
 Vue.prototype.$utils=utils
 Vue.config.productionTip = false
